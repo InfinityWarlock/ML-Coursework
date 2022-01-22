@@ -1,0 +1,6 @@
+Project goal: create age prediction model based on humour styles data.
+
+3 algorithms:
+pick two different types of regression as well as a classifier on binned age groups
+
+probably Ridge regression, LASSO, and kNN
