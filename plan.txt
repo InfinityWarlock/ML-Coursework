@@ -1,0 +1,17 @@
+Project goal: create age prediction model based on humour styles data.
+
+3 algorithms:
+pick two different types of regression as well as a classifier on binned age groups
+
+probably Ridge regression, LASSO, and kNN
+
+exploratory data analysis
+make some charts showing the distributions of each feature
+
+Data Preparation
+same for all 3 algs except kNN neads age group binning (likely into quantile groups either 20% or 25% probably)
+train-test split and then use cross validation
+cleaning - eg remove clearly wrong ages (anything over 123 - oldest person ever was 122), remove missing values (-1 for q1 - 32 and 0 for gender although may combine the 0s with 3s ie the other category - others have no missing values)
+Feature scaling - standardisation as it facilitates convergence for gradient descent (although may try raw and normalised as well and see which is best) may use normalised for kNN
+
+1: Ridge regression
